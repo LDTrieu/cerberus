@@ -6,7 +6,7 @@ Cerberus is a library to provide common codes for backend dev
 - Please make sure export `GOPRIVATE`
 
 ```bash
-export GOPRIVATE=github.com/ldtrieu/cerberus/*
+export GOPRIVATE=github.com/ldtrieu/cerberus
 go get github.com/ldtrieu/cerberus
 ```
 
