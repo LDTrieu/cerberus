@@ -8,13 +8,11 @@ import (
 	"go.uber.org/zap/zapcore"
 )
 
-
 func Init(cfg *config.Logger, opts ...zap.Option) (*zap.Logger, error) {
 	var (
 		zapConfig zap.Config
 		encode    zapcore.LevelEncoder
 	)
-	
 
 	switch os.Getenv("ENVIRONMENT") {
 	case "local":

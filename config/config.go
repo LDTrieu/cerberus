@@ -122,8 +122,8 @@ type DeadLetter struct {
 
 // Api External config
 type ApiExternal struct {
-	Hasaki      string
-	HasakiLogin bool
+	ApiEx      string
+	WsBlueLogin bool
 }
 
 type DiscordConfig struct {
