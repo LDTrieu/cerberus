@@ -14,6 +14,7 @@ func InitConnection(cfg *config.RedisConfig) *redis.Client {
 	if redisHost == "" {
 		redisHost = ":6379"
 	}
+	
 
 	client := redis.NewClient(&redis.Options{
 		Addr:         redisHost,
