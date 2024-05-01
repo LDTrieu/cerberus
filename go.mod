@@ -7,6 +7,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/infobloxopen/atlas-app-toolkit v1.4.0
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/pkg/errors v0.9.1
 	go.elastic.co/apm/module/apmgrpc/v2 v2.6.0
 	go.uber.org/zap v1.27.0
