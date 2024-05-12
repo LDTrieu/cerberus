@@ -1,6 +1,3 @@
-# Cerberus
-
-Cerberus is a library to provide common codes for backend dev
 
 ## Installation
 - Please make sure export `GOPRIVATE`
